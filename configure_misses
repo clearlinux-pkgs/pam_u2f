@@ -1,0 +1,4 @@
+Configure miss: memset_s
+Configure miss: openpam_borrow_cred
+Configure miss: readpassphrase
+Configure miss: security/openpam.h

@@ -1,0 +1,3 @@
+# Put security libs in the right place
+mkdir -p %{buildroot}/usr/lib64/security
+mv %{buildroot}/lib/x86_64-linux-gnu/security/pam_*.so %{buildroot}/usr/lib64/security/
